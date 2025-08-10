@@ -56,28 +56,28 @@ function incrementWrongAnswer() {
 
 function displayAdditionQuestion(operand1, operand2) {
     // Display addition question logic
-    document.getElementById("opperand1").textContent = operand1;
-    document.getElementById("opperand2").textContent = operand2;
+    document.getElementById("operand1").textContent = operand1;
+    document.getElementById("operand2").textContent = operand2;
     document.getElementById("operator").textContent = "+";
 }
 
 function displaySubtractQuestion(operand1, operand2) {
     // Display subtraction question logic
-    document.getElementById("opperand1").textContent = operand1;
-    document.getElementById("opperand2").textContent = operand2;
+    document.getElementById("operand1").textContent = operand1;
+    document.getElementById("operand2").textContent = operand2;
     document.getElementById("operator").textContent = "-";
 }
 
 function displayMultiplyQuestion(operand1, operand2) {
     // Display multiplication question logic
-    document.getElementById("opperand1").textContent = operand1;
-    document.getElementById("opperand2").textContent = operand2;
+    document.getElementById("operand1").textContent = operand1;
+    document.getElementById("operand2").textContent = operand2;
     document.getElementById("operator").textContent = "*";
 }
 
 function displayDivisionQuestion(operand1, operand2) {
     // Display division question logic
-    document.getElementById("opperand1").textContent = operand1;
-    document.getElementById("opperand2").textContent = operand2;
+    document.getElementById("operand1").textContent = operand1;
+    document.getElementById("operand2").textContent = operand2;
     document.getElementById("operator").textContent = "/";
 }  
